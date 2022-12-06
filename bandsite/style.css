@@ -1,0 +1,75 @@
+body{
+    background-color: #e3d812;
+    color: rgb(64, 8, 218);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#yo{
+    background-color: rgb(255, 0, 195);
+    color: darkmagenta;
+    font-family: 'Courier New', Courier, monospace
+}
+
+nav{
+    background-color: aqua;
+    padding: px;
+}
+nav li{
+    display: inline-block;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(42, 0, 250);
+}
+
+section{
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#merch img{
+    width: 250px;
+}
+
+#merch{
+    background-color: rgb(12, 218, 8);
+}
+header{
+    background-image: url(images/bertha.jfif);
+    background-size: 15%;
+    
+}
+li{
+ display: inline-block;
+}
+nav a{
+    display: block;
+    padding: 20px;
+}

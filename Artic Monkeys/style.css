@@ -1,0 +1,60 @@
+body{
+    background-color: #e4f89a;
+    color: rgb(106, 44, 0);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    padding: 1%;
+    background-color: hwb(11 31% 15%);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace
+}
+header{
+    background-image: url(images/R.jfif);
+    background-size: 20%;
+
+}
+
+li{
+ display: inline-block;
+}
+nav a{
+    display: block;
+    padding: 20px;
+}
+nav{
+    background-color: hwb(11 33% 18%);
+    padding: px;
+}
+nav li{
+    display: inline-block;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(127, 17, 17);
+}
+
+section{
+    padding: 2px;
+}
+
+#home p{
+    padding: 13pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#concerts li {
+    color: black;
+    background-color: rgb(242, 139, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+
+p{
+    background-color: rgba(255, 255, 255, 0.555);
+    padding: 10px;
+}
