@@ -102,7 +102,7 @@ figcaption:hover {
     padding: 8px;
     color: aliceblue;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 5%;
     background-color: blueviolet;
     border-radius: 10rem;  
@@ -116,4 +116,9 @@ figcaption:hover {
 .buckle p{
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif   ;
+}
+
+.buckle img{
+    padding: 7px;
+    border-radius: 50px;
 }
