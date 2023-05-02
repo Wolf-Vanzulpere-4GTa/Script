@@ -7,13 +7,13 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(228, 238, 203);
-    padding: 4%;
+    background-color: rgb(222, 227, 210);
+    padding: 1%;
 }
 
 header nav a {
@@ -45,6 +45,7 @@ nav a:hover {
     border-bottom: 2px;
     color: rgb(0, 0, 0);
     background-color: rgb(201, 197, 118);
+    border-radius: 2rem;
 }
 
 
@@ -57,10 +58,62 @@ header input {
     padding: 4px;
 }
 
+
 video {
     width: 100%;
 }
 
 img {
     width: 100%;
+    border-radius: 8px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgb(253, 255, 240);
+    border-radius: 10rem;
+}
+
+figcaption:hover {
+    background-color: rgb(230, 234, 187);
+}
+
+
+.bgc-highlights {
+
+    background-color: blueviolet;
+    border: 1rem;
+}
+
+.bgd-joinus {
+    
+    background-image: url("static/img/joinus.webp");
+    background-size: cover;
+    background-position: right;
+}
+
+.buckle figcaption{
+    padding: 8px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: blueviolet;
+    border-radius: 10rem;  
+    
+}
+
+.buckle figcaption:hover{
+    background-color: rgb(115, 0, 255);
+}
+
+.buckle p{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
 }
