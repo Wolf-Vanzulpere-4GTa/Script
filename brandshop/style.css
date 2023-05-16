@@ -16,6 +16,10 @@ header {
     padding: 1%;
 }
 
+.schoen {
+    margin-top: 1px;
+}
+
 header nav a {
     color: black;
     padding: 14px;
@@ -34,6 +38,7 @@ header nav a {
 
 .flex-item {
     flex: 1;
+    margin-top: 90px;
 }
 
 header nav li {
@@ -86,7 +91,7 @@ figcaption:hover {
 
 
 .bgc-highlights {
-
+margin-top: 90px;
     background-color: blueviolet;
     border: 1rem;
 }
@@ -121,4 +126,48 @@ figcaption:hover {
 .buckle img{
     padding: 7px;
     border-radius: 50px;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666666;
+    text-decoration: none;
+    
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+    
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+footer ul li:first-child a {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+    
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
