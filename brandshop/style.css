@@ -4,11 +4,15 @@
     align-items: center;
 }
 
+      @font-face { font-family: JuneBug; src: url('comfortaa/Comfortaa-Light.ttf'); } 
+      @font-face { font-family: JOOD; src: url('star_jedi/starjedi/Starjedi.ttf'); } 
+
+
+
 
 body {
     background-color: rgb(255, 255, 255);
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+font-family: JuneBug;}
 
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -107,7 +111,7 @@ margin-top: 90px;
     padding: 8px;
     color: aliceblue;
     position: absolute;
-    bottom: 15%;
+    bottom: 20%;
     left: 5%;
     background-color: blueviolet;
     border-radius: 10rem;  
@@ -120,7 +124,8 @@ margin-top: 90px;
 
 .buckle p{
     color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    font-family: JOOD   ;
+    padding: 7px;
 }
 
 .buckle img{
