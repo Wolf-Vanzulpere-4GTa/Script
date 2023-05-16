@@ -100,6 +100,7 @@ margin-top: 90px;
     border: 1rem;
 }
 
+
 .bgd-joinus {
     
     background-image: url("static/img/joinus.webp");
@@ -115,11 +116,18 @@ margin-top: 90px;
     left: 5%;
     background-color: blueviolet;
     border-radius: 10rem;  
+    text-decoration: none;
     
+}
+
+.buckle a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .buckle figcaption:hover{
     background-color: rgb(115, 0, 255);
+    text-decoration: none;
 }
 
 .buckle p{
